@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "头发不要落光"
+  text: "个人学习文档 | 作品集"
+  tagline: 连心爱的人都留不住，前端学得再好有什么用
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 个人作品集
+      link: /works
     - theme: alt
-      text: API Examples
+      text: 学习文档
       link: /api-examples
 
 features:
