@@ -9,7 +9,7 @@ export default defineConfig({
   base: "/docs/",
   
   themeConfig: {
-    logo: '/docs/static/icons/logo.svg',
+    logo: '/static/icons/logo.svg',
     search: {
       provider: 'local',
       options: {
