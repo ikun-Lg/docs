@@ -9,7 +9,7 @@ export default defineConfig({
   base: "/docs/",
   
   themeConfig: {
-    logo: '/static/icons/logo.svg',
+    logo: '/logo.svg',
     search: {
       provider: 'local',
       options: {
@@ -48,13 +48,15 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ikun-Lg' }
-    ]
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present LG'
+    }
   },
 
-  footer: {
-    message: 'Released under the MIT License.',
-    copyright: 'Copyright © 2024-present LG'
-  }
+  
 })
 
 
