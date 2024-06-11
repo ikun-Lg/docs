@@ -6,7 +6,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: 'https://cn.vitejs.dev/logo.svg' }]],
   title: "头发不要落光",
   description: "个人学习文档 | 个人作品集",
-  // base: "/docs/",
+  base: "/docs/",
   
   themeConfig: {
     logo: '/static/icons/logo.svg',
