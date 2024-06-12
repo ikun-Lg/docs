@@ -9,7 +9,7 @@ export default defineConfig({
   base: "/docs/",
   
   themeConfig: {
-    logo: '/static/icons/logo.svg',
+    logo: '/icons/logo.svg',
     search: {
       provider: 'local',
       options: {
@@ -51,7 +51,6 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024-present LG'
     }
   },
